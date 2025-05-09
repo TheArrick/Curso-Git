@@ -1,15 +1,18 @@
 # Repositoria Remoto
-## Conectar un repositorio local con un repositorio remoto
-Para poder conectar nuestro local a un repositorio remoto debemos hacer uso del comando `git remote add` y escribir la dirección del repositorio que esta alojado en GitHub 
+## Conectar un repositorio local con uno remoto
+Luego de hacer `git init` sobre un directorio. Para poder conectarlo a un repositorio remoto debemos hacer uso del comando `git remote add` y escribir la dirección del repositorio que esta alojado en GitHub 
 ```bash
 git remote add origin https://github.com/usuario/repo.git
 ```
-
++ `origin` es un nombre estandar que representa el origen del repositorio remoto
++ Solo se requiere hacer este paso una vez.
+  
 ## Subir cambios al repositorio
-Para subir los cambios del repositorio local al remoto, se usa el comando `git push`
+Luego de hacer commits en el local podemos subirlos los cambios al remoto, se usa el comando `git push`
 ```bash
 git push origin main
 ```
++ `main` es la rama a la que apuntamos los cambios. Puede cambiarse a cualquier rama que el usuario vea convenientee
 
 ## Actualizar repositorio local
 ```bash
