@@ -1,41 +1,27 @@
-# Fundamentos Git 
-Para empezar, podemos ya sea crear un repositorio desde cero o clonar uno ya existenten.
-## Iniciar un repositorio
-+ En un directorio del sistema se escribe el comando `git init` t
-+ Se genera automaticamente el directorio oculto `.git`
-
-## Clonar
-+ Con el comando `git clone <URL>` 
-
-## Añadir archivos Staged
+# Repositoria Remoto
+## Conectar un repositorio local con un repositorio remoto
+Para poder conectar nuestro local a un repositorio remoto debemos hacer uso del comando `git remote add` y escribir la dirección del repositorio que esta alojado en GitHub 
 ```bash
-git add archivo.extension
+git remote add origin https://github.com/usuario/repo.git
 ```
-O en caso de querer añadir todo los cambios del directorio actual
 
+## Subir cambios al repositorio
+Para subir los cambios del repositorio local al remoto, se usa el comando `git push`
 ```bash
-git add .
+git push origin main
 ```
-## Hacer un commit
-+ Un commit es un guardado del estado de los archivos. 
+
+## Actualizar repositorio local
 ```bash
-git commit -m "Mensaje"
+git pull origin <rama>
 ```
-+ El mensaje debe ser claro y resumir cual es la nueva funcionalidad o el cambio realizado.
 
-## Realizar buen mensaje en el commit
-+ Mensaje empieza con un verbo en infinitivo
-+ Maximo 50 caracteres 
-+ Evitar mensajes genericos
-## Heurística 
-+ feat: Nueva característica
-+ fix:  Bug arreglado
-+ perf: Mejora de rendimiento
-+ build: Cambios en el despliegue 
-+ docs: Cambios en la documentación
-+ refactor: Refactorización de codigo
-+ style: Cambios de formato
-+ test: Test
+Este comando descarga la ultima actualización de la rama que el usuario quiera
 
+<p>
+    <img src="Image/gitpushpull.jpg" alt="gitpushpull" width="400"/>
+</p>
 
+### Consejo
++ Siempre se hace un `git pull` antes de realizar cualquier cambio
 
