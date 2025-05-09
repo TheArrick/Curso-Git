@@ -18,7 +18,7 @@ git pull origin <rama>
 
 Este comando descarga la ultima actualización de la rama que el usuario quiera
 
-<p>
+<p align="center">
     <img src="Images/gitpuhspull.jpg" alt="gitpushpull" width="400"/>
 </p>
 
