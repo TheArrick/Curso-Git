@@ -1,7 +1,7 @@
 # Introducción
 ## Git
 <p align="center">
-    <img src="Images/git.png" alt="Git" width="100"/>
+    <img src="Images/git.png" alt="Git" width="300"/>
 </p>
 
 + Git es un sistema de control de versiones distribuido.
@@ -10,7 +10,7 @@
 + Multiples desarrolladores pueden trabajar sobre un mismo proyecto sin interferir con el trabajo de otros.  
 
 <p align="center">
-    <img src="Images/control.png" alt="control" width="100"/>
+    <img src="Images/control.png" alt="control" width="500"/>
 </p>
 
 ### Instalación
@@ -30,7 +30,7 @@ git --version
 
 ## Github
 <p align="center">
-    <img src="Images/github.png" alt="github" width="100"/>
+    <img src="Images/github.png" alt="github" width="300"/>
 </p>
 
 + Es una herramienta que permite alojar proyectos de Git en línea para control de versiones.
