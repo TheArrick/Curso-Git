@@ -1,13 +1,22 @@
 # Introducción
 ## Git
-<!--IMagen git-->
+<p>
+    <img src="Images/git.png" alt="Git" width="100"/>
+</p>
+
 + Git es un sistema de control de versiones distribuido.
 + Permite guardar el historial de versiones de archivos.
 + Herramienta fundamental en el desarrollo de software. 
 + Multiples desarrolladores pueden trabajar sobre un mismo proyecto sin interferir con el trabajo de otros.  
-<!--Imagen control de versiones-->
+
+<p>
+    <img src="Images/control.png" alt="control" width="100"/>
+</p>
+
 ### Instalación
 Usando el gestor de paquetes HomeBrew
+
+
 
 ```bash
 brew install git
@@ -20,7 +29,10 @@ git --version
 ```
 
 ## Github
-<!--Imagen Github-->
+<p>
+    <img src="Images/github.png" alt="github" width="100"/>
+</p>
+
 + Es una herramienta que permite alojar proyectos de Git en línea para control de versiones.
 + Ofrece una interfaz web responsiva e intuitiva con el usuario.
 + Facilita la gestión de proyectos de codigo abierto o privado.
