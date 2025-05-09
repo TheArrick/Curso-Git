@@ -56,7 +56,16 @@ git status
 | `build`    | Cambios en la configuración de build o despliegue       |
 
 
-
+## Cancelar cambios
+Si al hacer `git add` queremos quitar un archivo entonces facilmente se puede hacer con el siguiente comando.
+```bash
+git reset archivo.extension
+```
+## Revertir un commit
+Si ya se hizo commit entonces la forma para deshacerlo es
+```bash
+git --soft HEAD~1
+```
 
 
 
