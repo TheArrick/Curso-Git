@@ -1,27 +1,38 @@
-# Repositoria Remoto
-## Conectar un repositorio local con un repositorio remoto
-Para poder conectar nuestro local a un repositorio remoto debemos hacer uso del comando `git remote add` y escribir la dirección del repositorio que esta alojado en GitHub 
+# Ramas
++ Es una copia del proyecto donde puedes desarrollar nuevas ideas sin afectar el código principal.
++ Por defecto se crea una rama llamada `master` o `main`
+
+A continuación se hara un listado de los comandos más utiles en cuanto a ramas
+## Crear una nueva rama
 ```bash
-git remote add origin https://github.com/usuario/repo.git
+git branch <nombre-rama>
+```
+## Moverse entre ramas
+```bash
+git switch <nombre-rama>
 ```
 
-## Subir cambios al repositorio
-Para subir los cambios del repositorio local al remoto, se usa el comando `git push`
+## Mostrar todas las ramas
 ```bash
-git push origin main
+git branch
+```
+## Borrar ramas
+```bash
+git switch -d <nombre-rama>
 ```
 
-## Actualizar repositorio local
-```bash
-git pull origin <rama>
+## Merge entre ramas
++ Este comando permite combinar los cambios entre una rama y la main
+```branch
+git branch -d <nombre-rama>
 ```
 
-Este comando descarga la ultima actualización de la rama que el usuario quiera
+## Buenas Practicas
++ Nombra tus ramas de forma clara
++ Trabaja en ramas separadas por funcionalidad.
++ Haz merge solo cuando todo funcione correctamente.
++ Elimina ramas que ya no uses para mantener limpio tu repositorio.
 
-<p align="center">
-    <img src="Images/gitpuhspull.jpg" alt="gitpushpull" width="400"/>
-</p>
 
-### Consejo
-+ Siempre se hace un `git pull` antes de realizar cualquier cambio
+
 
