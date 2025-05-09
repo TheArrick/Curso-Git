@@ -1,6 +1,6 @@
 # Introducción
 ## Git
-<p>
+<p align="center">
     <img src="Images/git.png" alt="Git" width="100"/>
 </p>
 
@@ -9,7 +9,7 @@
 + Herramienta fundamental en el desarrollo de software. 
 + Multiples desarrolladores pueden trabajar sobre un mismo proyecto sin interferir con el trabajo de otros.  
 
-<p>
+<p align="center">
     <img src="Images/control.png" alt="control" width="100"/>
 </p>
 
@@ -29,7 +29,7 @@ git --version
 ```
 
 ## Github
-<p>
+<p align="center">
     <img src="Images/github.png" alt="github" width="100"/>
 </p>
 
