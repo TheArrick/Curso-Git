@@ -1,10 +1,12 @@
-# Introduccion
+# Introducción
 ## Git
 <!--IMagen git-->
-Git es un sistema de control de versiones distribuido, permite guardar el historial de versiones de archivos y coloborar con otras personas. Es una herramienta fundamental en el desarrollo de software, 
-ya que multiples desarrolladores pueden trabajar sobre un mismo proyecto sin interferir con el trabajo de otros.  
++ Git es un sistema de control de versiones distribuido.
++ Permite guardar el historial de versiones de archivos.
++ Herramienta fundamental en el desarrollo de software. 
++ Multiples desarrolladores pueden trabajar sobre un mismo proyecto sin interferir con el trabajo de otros.  
 <!--Imagen control de versiones-->
-Instalacion
+### Instalación
 Usando el gestor de paquetes HomeBrew
 
 ```bash
