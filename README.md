@@ -16,7 +16,8 @@ git clone <url-repositorio>
 Esto descargá todos los archivos que este contenga.
 
 ## Añadir archivos Staged
-Se añaden los archivos
++ Staged es una zona intermedia entre los archivos modificados y los commit
++ Permite tener un control sobre los cambios antes de confirmarlos
 ```bash
 git add archivo.extension
 ```
@@ -31,20 +32,32 @@ git add .
 git commit -m "Mensaje"
 ```
 + El mensaje debe ser claro y resumir cual es la nueva funcionalidad o el cambio realizado.
+## Estado actual del repositorio
+Para ver el estado del repositorio.
+```bash
+git status
+```
+
 
 ## Realizar buen mensaje en el commit
 + Mensaje empieza con un verbo en infinitivo
 + Maximo 50 caracteres 
 + Evitar mensajes genericos
 ## Heurística 
-+ feat: Nueva característica
-+ fix:  Bug arreglado
-+ perf: Mejora de rendimiento
-+ build: Cambios en el despliegue 
-+ docs: Cambios en la documentación
-+ refactor: Refactorización de codigo
-+ style: Cambios de formato
-+ test: Test
+| Tipo       | Descripción                                             |
+| ---------- | ------------------------------------------------------- |
+| `feat`     | Nueva funcionalidad                                     |
+| `fix`      | Corrección de errores                                   |
+| `docs`     | Cambios en la documentación                             |
+| `style`    | Cambios de formato                                      |
+| `refactor` | Refactorización de código                               |
+| `perf`     | Mejoras de rendimiento                                  |
+| `test`     | Añadir o modificar pruebas                              |
+| `build`    | Cambios en la configuración de build o despliegue       |
+
+
+
+
 
 
 
