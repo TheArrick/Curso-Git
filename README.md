@@ -15,6 +15,7 @@ git push origin main
 + `main` es la rama a la que apuntamos los cambios. Puede cambiarse a cualquier rama que el usuario vea convenientee
 
 ## Actualizar repositorio local
+Para poder traer la ultima actualización del repositorio remoto y fusionarlo con la rama actual. 
 ```bash
 git pull origin <rama>
 ```
@@ -26,5 +27,5 @@ Este comando descarga la ultima actualización de la rama que el usuario quiera
 </p>
 
 ### Consejo
-+ Siempre se hace un `git pull` antes de realizar cualquier cambio
++ Siempre se hace un `git pull` antes de comenzar a trabajar para evitar problemas.
 
