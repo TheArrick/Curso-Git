@@ -1,47 +1,41 @@
-# Introducción
-## Git
-<p align="center">
-    <img src="Images/git.png" alt="Git" width="300"/>
-</p>
+# Fundamentos Git 
+Para empezar, podemos ya sea crear un repositorio desde cero o clonar uno ya existenten.
+## Iniciar un repositorio
++ En un directorio del sistema se escribe el comando `git init` t
++ Se genera automaticamente el directorio oculto `.git`
 
-+ Git es un sistema de control de versiones distribuido.
-+ Permite guardar el historial de versiones de archivos.
-+ Herramienta fundamental en el desarrollo de software. 
-+ Multiples desarrolladores pueden trabajar sobre un mismo proyecto sin interferir con el trabajo de otros.  
+## Clonar
++ Con el comando `git clone <URL>` 
 
-<p align="center">
-    <img src="Images/control.png" alt="control" width="500"/>
-</p>
-
-### Instalación
-Usando el gestor de paquetes HomeBrew
-
-
+## Añadir archivos Staged
+```bash
+git add archivo.extension
+```
+O en caso de querer añadir todo los cambios del directorio actual
 
 ```bash
-brew install git
+git add .
 ```
-
-
-### Comprobar Version
+## Hacer un commit
++ Un commit es un guardado del estado de los archivos. 
 ```bash
-git --version
+git commit -m "Mensaje"
 ```
++ El mensaje debe ser claro y resumir cual es la nueva funcionalidad o el cambio realizado.
 
-## Github
-<p align="center">
-    <img src="Images/github.png" alt="github" width="300"/>
-</p>
-
-+ Es una herramienta que permite alojar proyectos de Git en línea para control de versiones.
-+ Ofrece una interfaz web responsiva e intuitiva con el usuario.
-+ Facilita la gestión de proyectos de codigo abierto o privado.
-
-### Crear cuenta
-Crear una cuenta en github es gratuito
-1. Haz click en "Sign up"
-2. Ingresa información correspondiente
-3. Verifica tu correo  electrónico
+## Realizar buen mensaje en el commit
++ Mensaje empieza con un verbo en infinitivo
++ Maximo 50 caracteres 
++ Evitar mensajes genericos
+## Heurística 
++ feat: Nueva característica
++ fix:  Bug arreglado
++ perf: Mejora de rendimiento
++ build: Cambios en el despliegue 
++ docs: Cambios en la documentación
++ refactor: Refactorización de codigo
++ style: Cambios de formato
++ test: Test
 
 
 
