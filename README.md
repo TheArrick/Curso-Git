@@ -1,13 +1,22 @@
 # Fundamentos Git 
 Para empezar, podemos ya sea crear un repositorio desde cero o clonar uno ya existenten.
 ## Iniciar un repositorio
-+ En un directorio del sistema se escribe el comando `git init` t
-+ Se genera automaticamente el directorio oculto `.git`
++ En un directorio del sistema se escribe el comando
+```bash
+git init
+```
+Este comando inicializa un repositorio vacío en el directorio actual. Automáticamente se crea un directorio oculto llamado .git que contiene toda la configuración y el historial del repositorio.
+
 
 ## Clonar
-+ Con el comando `git clone <URL>` 
+Para poder hacer uso de un repositorio ya existente alojado en GitHub, necesitamos su URL
+```bash
+git clone <url-repositorio>
+```
+Esto descargá todos los archivos que este contenga.
 
 ## Añadir archivos Staged
+Se añaden los archivos
 ```bash
 git add archivo.extension
 ```
