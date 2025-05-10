@@ -1,7 +1,6 @@
 # Ramas
-+ Es una copia del proyecto donde puedes desarrollar nuevas ideas sin afectar el código principal.
-+ Por defecto se crea una rama llamada `master` o `main`
-
+Las ramas permiten desarrollar nuevas funcionalidades o ideas de forma aislada, sin afectar el código principal. Esto hace que el trabajo colaborativo y el control de versiones sean más ordenados y seguros.
+Por defecto, Git crea una rama principal llamada main o master.
 A continuación se hara un listado de los comandos más utiles en cuanto a ramas
 ## Crear una nueva rama
 ```bash
