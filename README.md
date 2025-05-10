@@ -1,7 +1,9 @@
 # Ramas
 Las ramas permiten desarrollar nuevas funcionalidades o ideas de forma aislada, sin afectar el código principal. Esto hace que el trabajo colaborativo y el control de versiones sean más ordenados y seguros.
 Por defecto, Git crea una rama principal llamada main o master.
-A continuación se hara un listado de los comandos más utiles en cuanto a ramas
+A continuación se hara un listado de los comandos más utiles en cuanto a ramas.
+
+
 ## Crear una nueva rama
 ```bash
 git branch <nombre-rama>
@@ -25,6 +27,10 @@ git switch -d <nombre-rama>
 ```branch
 git branch -d <nombre-rama>
 ```
+## Head
+HEAD es un puntero especial que señala a la rama activa y al último commit confirmado en esa rama.
+Cuando haces un commit, Git actualiza HEAD para apuntar al nuevo snapshot del proyecto.
+También puedes cambiar el HEAD manualmente al moverte entre ramas o commits. 
 
 ## Buenas Practicas
 + Nombra tus ramas de forma clara
